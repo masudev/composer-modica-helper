@@ -1,0 +1,17 @@
+{
+    "name": "masudev/modica-helper",
+    "description": "Modica Helper API package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ModicaHelper\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
